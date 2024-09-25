@@ -12,6 +12,10 @@ public class MenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+    public void UITESTPlayGame()
+    {
+        SceneManager.LoadScene("UITEST");
+    }
 
     public void QuitGame()
     {
@@ -32,6 +36,11 @@ public class MenuScript : MonoBehaviour
         quitDialog.SetActive(false);
     }
     public void Home()
+    {
+        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1;
+    }
+    public void UITESTHome()
     {
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;

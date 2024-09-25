@@ -17,6 +17,11 @@ public class PauseScript : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
     }
+    public void UITESTHome()
+    {
+        SceneManager.LoadScene("MenuUITEST");
+        Time.timeScale = 1;
+    }
     public void Resume()
     {
         pauseMenu.SetActive(false);
