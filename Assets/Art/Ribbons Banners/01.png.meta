@@ -363,7 +363,7 @@ TextureImporter:
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 9, y: 7, z: 19, w: 7}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -567,10 +567,10 @@ TextureImporter:
       name: 01_21
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
-        width: 62
-        height: 30
+        x: 81
+        y: 2
+        width: 30
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
